@@ -48,7 +48,6 @@ def what_moves_are_possible(validstate):
 
     for row in validstate:
         row_count += 1
-        print(row_count)
         if "o" in row:
             player_index = row.index("o")
             break
