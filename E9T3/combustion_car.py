@@ -33,10 +33,6 @@ class CombustionCar(Car):
 
         self._current_gas[0] += f
 
-        if type(f) != float:
-            self._current_gas[0] = 0
-            raise Warning("invalid or corrupted type")
-
         if self._current_gas[0] > self._gas_capacity:
             self._current_gas[0] = 0
             raise Warning("car is overfilled")
