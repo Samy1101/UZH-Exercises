@@ -1,6 +1,6 @@
 from unittest import TestCase
-from E10T1.currency_converter import convert
-from E10T1.bank_account import BankAccount
+from public.currency_converter import convert
+from public.bank_account import BankAccount
 
 # You need to add missing imports to make the test work!
 
