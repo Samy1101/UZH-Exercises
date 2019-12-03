@@ -1,6 +1,6 @@
 # add imports, if necessary
 
-from E10T1.exchange_rates import EXCHANGE_RATES
+from public.exchange_rates import EXCHANGE_RATES
 
 
 def convert(amount, from_currency, to_currency):
