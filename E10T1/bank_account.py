@@ -1,6 +1,6 @@
 # add imports, if necessary
-from E10T1.exchange_rates import EXCHANGE_RATES
-from E10T1.currency_converter import convert
+from public.exchange_rates import EXCHANGE_RATES
+from public.currency_converter import convert
 
 
 class BankAccount:
